@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "cp index.src.html index.html",
     "dev": "vite",
-    "prebuild": "cp index.src.html index.html && rm -rf assets && rm -f vite.svg",
+    "prebuild": "cp index.src.html index.html && rm -rf assets && rm -f vite.svg favicon.svg",
     "build": "vite build",
-    "postbuild": "cp docs/index.html index.html && cp -r docs/assets assets && cp docs/vite.svg vite.svg",
+    "postbuild": "cp docs/index.html index.html && cp -r docs/assets assets && cp docs/vite.svg vite.svg && cp docs/favicon.svg favicon.svg",
     "preview": "vite preview"
   },
   "dependencies": {

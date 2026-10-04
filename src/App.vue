@@ -22,26 +22,26 @@ const services = [
   },
 ]
 
-// Products without a public site yet leave `url` unset and render unlinked.
+// Products without a live site leave `url` unset, render unlinked and go last.
 const products = [
-  {
-    name: 'RakanBoss',
-    category: 'HR & payroll',
-    body: 'Payroll for Malaysian businesses. Calculates EPF, SOCSO, EIS and PCB, routes every run through maker-checker approvals, and produces bank-ready Maybank2E files.',
-    url: 'https://rakanboss.com',
-    domain: 'rakanboss.com',
-  },
-  {
-    name: 'HouseMonkey',
-    category: 'Property management',
-    body: 'Rental and property management for landlords, investors, and agencies. Tools for tenant screening, rent collection, and maintenance.',
-  },
   {
     name: 'RewardLah',
     category: 'Loyalty & retail CRM',
     body: 'Loyalty points and CRM for SMEs. Retain customers and drive repeat purchases through intelligent reward systems and insights.',
     url: 'https://rewardlah.com',
     domain: 'rewardlah.com',
+  },
+  {
+    name: 'Rakan Boss',
+    category: 'HR & payroll',
+    body: 'Payroll for Malaysian businesses. Calculates EPF, SOCSO, EIS and PCB, routes every run through maker-checker approvals, and produces bank-ready Maybank2E files.',
+    url: 'https://rakanboss.com',
+    domain: 'rakanboss.com',
+  },
+  {
+    name: 'housemonkey',
+    category: 'Property management',
+    body: 'Rental and property management for landlords, investors, and agencies. Tools for tenant screening, rent collection, and maintenance.',
   },
 ]
 
